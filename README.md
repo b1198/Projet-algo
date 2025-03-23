@@ -20,7 +20,7 @@ Par défaut, l'algorithme DFS est utilisé dans le code actuel, ce qui signifie 
 
 1. Compilation du projet 
 
-Assurez-vous d'avoir Java installé sur votre machine. 
+installation de java sur la machine. 
 
        javac Labyrinthe.java 
 
@@ -32,11 +32,10 @@ Assurez-vous d'avoir Java installé sur votre machine.
 
 java Labyrinthe maze.txt  # Utilisation de DFS (par défaut) 
 
-Si vous souhaitez modifier le code pour utiliser BFS, changez l'instance de Pile en Queue dans la méthode solve(). 
 
 3. Format du fichier maze.txt 
 
-Le fichier doit contenir : 
+Le fichier contient : 
 
 S : Point de départ (obligatoire, unique) 
 
@@ -68,8 +67,7 @@ Exemple de maze.txt
 
 # Dépendances 
 
-Aucune dépendance externe n'est requise. Assurez-vous seulement d'avoir Java installé (JDK 8 ou supérieur). 
-
+Aucune dépendance externe n'est requise. 
 Résultats 
 
 Le programme affiche : 
